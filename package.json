@@ -1,0 +1,37 @@
+{
+  "name": "online-examination-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive online examination management system with proctoring capabilities",
+  "main": "backend/server.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup-db": "cd backend && npm run setup-db",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev",
+    "build-frontend": "cd frontend && npm run build",
+    "lint-frontend": "cd frontend && npm run lint"
+  },
+  "keywords": [
+    "examination",
+    "management",
+    "system",
+    "online",
+    "proctoring",
+    "education"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "devDependencies": {},
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
