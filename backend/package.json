@@ -10,7 +10,9 @@
     "setup-db": "node scripts/setupTestUsers.js",
     "create-admin": "node scripts/createAdmin.js",
     "create-student": "node scripts/createStudent.js",
-    "create-teacher": "node scripts/createTeacher.js"
+    "create-teacher": "node scripts/createTeacher.js",
+    "audit": "npm audit",
+    "audit-fix": "npm audit fix"
   },
   "keywords": ["examination", "management", "system", "api"],
   "author": "",
@@ -20,6 +22,9 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.0.2"
   },
